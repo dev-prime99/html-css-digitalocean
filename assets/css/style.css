@@ -205,3 +205,61 @@ header .bt button i{
   padding-top: 5%;
   text-align: center;
 }
+
+/* COSTUMERS */
+
+.costumers{
+  text-align: center;
+  background-color: #f3f5f9;
+  padding: 60px 0;
+}
+
+.costumers a{
+  display: inline-block;
+  margin-top: 2%;
+  color: #0069ff;
+}
+
+.costumers h4{
+  opacity: 0.5;
+}
+
+.digital{
+  margin: 2% 0 2% 0;
+}
+
+.digital div{
+  height: 60px;
+}
+
+.bg{
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+}
+
+.digital .docker{
+  background-image: url("../img/docker.png");
+}
+
+.digital .gitlab{
+  background-image: url("../img/gitlab.png");
+}
+
+.digital .slack{
+  background-image: url("../img/slack.png");
+}
+
+.digital .hashicorp{
+  background-image: url("../img/hashicorp.png");
+}
+
+.digital .wework{
+  background-image: url("../img/wework.png");
+}
+
+.digital .splunk{
+  background-image: url("../img/splunk.png");
+}
+
+/* Deploy and scale seamlessly */
