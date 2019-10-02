@@ -16,7 +16,6 @@
   text-align: right;
 }
 
-
 /* NAV */
 
 nav a{
@@ -32,8 +31,9 @@ nav .row ul li{
 }
 
 nav .row{
-  padding: 1% 0;
-  border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px rgba(0, 0, 0, 0.15) solid;
 }
 
 nav .row .col-lg-6 a{
@@ -53,7 +53,8 @@ nav .row p{
 }
 
 nav .row2{
-  padding: 1.5% 0;
+  height: 65px;
+  line-height: 65px;
 }
 
 nav .row2 ul li{
@@ -69,10 +70,11 @@ nav .row2 ul li a:hover{
 
 nav .row2 img{
   height: 35px;
+  margin-top: 6%;
 }
 
 nav .row2 .col-lg-2{
-  line-height: 35px;
+  line-height: 65px;
 }
 
 nav .row2 button{
@@ -88,4 +90,118 @@ nav .row2 button{
 nav .row2 button:hover{
   background-color: #0069ff;
   color: #ffffff;
+}
+
+/* HEADER */
+
+header{
+  background-color: #0248ff;
+  padding: 3% 0 5% 0;
+}
+
+header p{
+  font-size: 1.65em;
+  color: #ffffff;
+  line-height: 35px;
+}
+
+header .free{
+  color: #ffffff;
+  font-size: 0.65em;
+  text-align: center;
+  background-color: #00b47b;
+  border-radius: .6em;
+  padding: 1% 0;
+  margin-bottom: 2.5%;
+}
+
+header .ps-ab{
+  transform: translate(-0%, 37%);
+}
+
+header .col-lg-5:last-child{
+  float: right;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  padding: 3%;
+}
+
+header h1{
+  color: #ffffff;
+  font-size: 4em;
+  margin-bottom: 2%;
+}
+
+header h3{
+  text-align: center;
+}
+
+.deploy h3{
+  font-size: 32px;
+  margin: 3% 0 5% 0;
+}
+
+.deploy input{
+  width: 100%;
+  padding: 3.5% 0 3.5% 3%;
+  margin: 2.5% 0;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  border-radius: 0.5em;
+  font-size: 17px;
+}
+
+.deploy button{
+  margin: 1% 0 2% 0;
+  width: 100%;
+  padding: 4% 0;
+  background-color: #0069ff;
+  border: none;
+  border-radius: 0.3em;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+ header span{
+  margin: 1% 0 3% 0;
+  display: block;
+  text-align: center;
+}
+
+header .bt{
+  text-align: center;
+}
+
+header .bt button{
+  width: 46.5%;
+  padding: 3% 0;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid rgba(0,105,255,.2);
+  background-color: #d5e4f7;
+  border-radius: 0.2em;
+}
+
+header .bt button i{
+  position: absolute;
+  left: 10%;
+}
+
+#google{
+  margin-right: 2.5%;
+  position: relative;
+}
+
+#git{
+  margin-left: 2.5%;
+  position: relative;
+}
+
+#terms{
+  font-size: 13px;
+  color: #000000;
+  padding-top: 5%;
+  text-align: center;
 }

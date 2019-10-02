@@ -8,6 +8,12 @@
  max-width: 1170px;
 }
 
+@media screen and (max-width: 1170px){
+  .container{
+    padding: 0 2%;
+  }
+}
+
 .container::after{
   content: "";
   display: table;
@@ -20,7 +26,7 @@
 
             /* DESKTOP MODE */
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1049px) {
 
   /* COLUMN REGULAR */
 
