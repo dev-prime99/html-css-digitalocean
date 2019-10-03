@@ -466,3 +466,61 @@ header .bt button i{
 #service table tr:last-child{
   border: none;
 }
+
+/* TEAMS */
+
+#teams{
+  background-color: #f3f5f9;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#teams h2{
+  font-size: 38px;
+  margin-bottom: 2%;
+}
+
+#teams .box{
+  width: 65%;
+  margin: 0 auto;
+  padding: 40px 20px 70px 20px;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+}
+
+#teams .box img{
+  height: 25px;
+  margin-bottom: 3%;
+}
+
+#teams .box p{
+  font-size: 27px;
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+#teams .box cite{
+  display: block;
+  padding: 3% 0;
+  font-size: 13px;
+}
+
+#teams .box a{
+  color: #0069ff;
+  text-decoration: none;
+}
+
+#teams .indi i{
+  font-size: 10px;
+  margin: 2% 0.3%;
+}
+
+#teams .indi .fas{
+  color: #0069ff;
+}
+
+#teams .indi .far{
+  color: #0069ff;
+}
+
+/* BANNER */
