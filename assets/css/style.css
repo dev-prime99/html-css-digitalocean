@@ -116,7 +116,7 @@ nav .alternativnavbar i{
 }
 
 @media screen and (max-width: 1049px) {
-  .row, .row2{
+  nav .row, nav .row2{
     display: none;
   }
   nav{
@@ -162,6 +162,12 @@ header .ps-ab{
 @media screen and (max-width: 1050px) {
   header .ps-ab{
     padding: 2% 0 5% 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header{
+    padding-top: 20%; 
   }
 }
 
@@ -337,6 +343,15 @@ header .bt button i{
   line-height: 35px;
 }
 
+@media screen and (max-width: 767px) {
+  #depscale .row ul li{
+    padding-left: 2%;
+  }
+  #depscale .col-xs-12{
+    margin-bottom: 8%;
+  }
+}
+
 #depscale .row ul li:first-child{
   border-left: 2px #0069ff solid;
 }
@@ -361,9 +376,9 @@ header .bt button i{
   margin-top: 8%;
 }
 
-  #depscale .lat{
-    padding-left: 3%;
-  }
+#depscale .lat{
+  padding-left: 3%;
+}
 
 
 
@@ -457,12 +472,19 @@ header .bt button i{
   line-height: 22px;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (min-width: 768px) and (max-width: 1050px) {
   #business p{
     padding-right: 0;
   }
   #business .col-md-6{
     margin: 2% 0;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .col-xs-6{
+    margin: 2% 0;
+    padding: 1%;
   }
 }
 
@@ -673,4 +695,13 @@ footer .ft_copy a{
 
 footer .ft_copy .col-lg-6{
   text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .ft_copy{
+    text-align: center;
+  }
+  footer .ft_copy .col-lg-6{
+    text-align: center;
+  }
 }
