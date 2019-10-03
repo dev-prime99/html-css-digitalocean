@@ -524,3 +524,32 @@ header .bt button i{
 }
 
 /* BANNER */
+
+#banner{
+  background-color: #0248ff;
+  text-align: center;
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+#banner h2{
+  font-size: 28px;
+  margin-bottom: 2%;
+}
+
+#banner button{
+  background-color: #ffffff;
+  color: #0248ff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: .2em;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+#banner button:hover{
+  opacity: .7;
+}
+
+/* FOOTER */
