@@ -412,4 +412,57 @@ header .bt button i{
 
 /* SERVICE */
 
-#service
+#service{
+  background-color: #031b4e;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+#service h2{
+  width: 60%;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+#service table{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 13px;
+  border-collapse: collapse;
+}
+
+#service table th{
+  text-align: left;
+}
+
+#service table td, #service table th{
+  padding: 11px 10px 10px;
+}
+
+#service table td{
+  opacity: 0.6;
+}
+
+#service table td:last-child{
+  text-align: right;
+  opacity: 1.0;
+}
+
+#service table td a{
+  color: #14d4ee;
+  text-decoration: none;
+}
+
+#service table td a:hover{
+  color: #005fe6;
+}
+
+#service table tr{
+  border-bottom: 1px solid hsla(0,0%,100%,.2)
+}
+
+#service table tr:last-child{
+  border: none;
+}
