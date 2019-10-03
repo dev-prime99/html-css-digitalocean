@@ -26,7 +26,7 @@
 
             /* DESKTOP MODE */
 
-@media screen and (min-width: 1049px) {
+@media screen and (min-width: 1050px) {
 
   /* COLUMN REGULAR */
 
@@ -109,7 +109,7 @@
 
             /* TABLET MODE */
 
-@media screen and (min-width: 768px) and (max-width: 1239px) {
+@media screen and (min-width: 768px) and (max-width: 1049px) {
 
   /* COLUMN REGULAR */
 

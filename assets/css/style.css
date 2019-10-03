@@ -18,6 +18,13 @@
 
 /* NAV */
 
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: #ffffff;
+}
+
 nav a{
   color: #000000;
   text-decoration: none;
@@ -92,11 +99,43 @@ nav .row2 button:hover{
   color: #ffffff;
 }
 
+nav .alternativnavbar .col-md-6:last-child{
+  text-align: right;
+  padding: 2% 0;
+}
+
+nav .alternativnavbar img{
+  height: 35px;
+  margin-top: 4%;
+}
+
+nav .alternativnavbar i{
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1049px) {
+  .row, .row2{
+    display: none;
+  }
+  nav{
+    background-color: #0248ff;
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .alternativnavbar{
+    display: none;
+  }
+}
+
 /* HEADER */
 
 header{
   background-color: #0248ff;
-  padding: 3% 0 5% 0;
+  padding: 11% 0 5% 0;
 }
 
 header p{
@@ -116,7 +155,14 @@ header .free{
 }
 
 header .ps-ab{
-  transform: translate(-0%, 37%);
+  /* transform: translate(-0%, 37%); */
+  padding: 20% 0;
+}
+
+@media screen and (max-width: 1050px) {
+  header .ps-ab{
+    padding: 2% 0 5% 0;
+  }
 }
 
 header .col-lg-5:last-child{
@@ -315,6 +361,12 @@ header .bt button i{
   margin-top: 8%;
 }
 
+  #depscale .lat{
+    padding-left: 3%;
+  }
+
+
+
 /* Designed for developers */
 
 #devesigned{
@@ -405,6 +457,15 @@ header .bt button i{
   line-height: 22px;
 }
 
+@media screen and (max-width: 1050px) {
+  #business p{
+    padding-right: 0;
+  }
+  #business .col-md-6{
+    margin: 2% 0;
+  }
+}
+
 #business a{
   text-decoration: none;
   color: #0069ff;
@@ -465,6 +526,12 @@ header .bt button i{
 
 #service table tr:last-child{
   border: none;
+}
+
+@media screen and (max-width: 1049px) {
+  #service table:last-child{
+    margin-top: 5%;
+  }
 }
 
 /* TEAMS */
@@ -553,3 +620,57 @@ header .bt button i{
 }
 
 /* FOOTER */
+
+footer{
+  background-color: #010e28;
+  padding: 100px 0;
+  color: #ffffff;
+}
+
+footer h6{
+  font-size: 15px;
+  margin-bottom: 6%;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer a{
+  color: #ffffff;
+  opacity: 0.4;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+footer a:hover{
+  opacity: 1;
+}
+
+footer .container:first-child{
+  margin-bottom: 5%;
+}
+
+footer .ft_copy{
+  padding-top: 30px;
+  border-top: 1px rgba(255, 255, 255, 0.16) solid;
+}
+
+footer .ft_copy img{
+  height: 50px;
+}
+
+footer .ft_copy p{
+  line-height: 50px;
+  opacity: 0.4;
+}
+
+footer .ft_copy a{
+  line-height: 50px;
+  font-size: 20px;
+  margin: 0 1%;
+}
+
+footer .ft_copy .col-lg-6{
+  text-align: right;
+}
